@@ -30,7 +30,7 @@ var calcular = () =>{
         var costoDelHelado = 1.8;
     }
     else if (dinero >= 2.9) {
-        document.getElementById("caja1").innerHTML=("Helado con confites o un pote de 1/4 KG");
+        document.getElementById("caja1").innerHTML=("Helado con confites o un pote de 1/4 kg");
         var costoDelHelado = 2.9;
     }
     else{
