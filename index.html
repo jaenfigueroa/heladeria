@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ARCHIVO CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FUENTES DE TEXTO -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <article class="primercuadro">
+            <h2>Palito de helado de agua: <strong>$0.6</strong></h2>
+            <h2>Palito de helado de crema: <strong>$1</strong></h2>
+            <h2>Bombon helado marca heladix: <strong>$1.6</strong></h2>
+            <h2>Bombon helado marca heladovich: <strong>$1.7</strong></h2>
+            <h2>Bombon helado marca helardo: <strong>$1.8</strong></h2>
+            <h2>Potecito de helado con confites: <strong>$2.9</strong></h2>
+            <h2>Pote de 1/4 kg: <strong>$2.9</strong></h2>
+        </article>
+    
+        <article  class="segundocuadro">
+            <h1 id="titulo">heladeria</h1>
+            <img src="img/pro2.png" alt="">
+            <aside class="cuadro1">
+                <h2>¿Cuanto dinero tienes?</h2>
+    
+        <!-- ==================== -->
+                <input class="entrada" type="text" id="entrada" placeholder="$ 0.00"/> 
+    
+                <div class="caja2 invisible" id="valueInput"></div>
+                
+                <button class="boton" type="button"  onclick="calcular()">Calcular</button> 
+        <!-- ===================== -->
+    
+        <!-- ========= -->
+    
+                <h2>El helado mas caro para ti es:</h2>
+                <div id="caja1" class="caja1"></div>
+                <h2>Tu vuelto es:</h2>
+                <div id="caja2" class="caja2"></div>
+            </aside>
+        </article>
+    </section>
+
+    <footer>Jaen Figueroa © 2021</footer>
+    <!-- ARCHIVO JAVASCRIPT -->
+    <script src="main.js"></script>
+</body>
+
+</html>
